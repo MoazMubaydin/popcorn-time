@@ -1,11 +1,14 @@
-
+import Header from "./components/Header"
+import Footer from "./components/Footer"
+import MovieList
+  from "./components/MovieList"
 function App() {
 
   return (
     <>
-
-      <h1>Welcome to Popcorn</h1>
-
+      <Header />
+      <MovieList />
+      <Footer />
     </>
   )
 }
